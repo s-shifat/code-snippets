@@ -1,5 +1,5 @@
-site_name: Code Snippets
-site_url: https://your-username.github.io/code-snippets/  # Replace with your GitHub Pages URL
+site_name: S-shifat Code Snippets Browser
+site_url: https://s-shifat.github.io/code-snippets/
 
 theme:
   name: material
