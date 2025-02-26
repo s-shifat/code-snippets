@@ -43,17 +43,20 @@ ax.set_xticks(
 ## List The font names available to matplotlib
 
 from [StackOverflow](https://stackoverflow.com/a/73938907/13497846)
-
 ```python
 from matplotlib import font_manager
+```
+
+```python
 sorted(font_manager.get_font_names())
 ```
 
 ## Load a font file without systemwide installation
-
 ```python
 from matplotlib import font_manager
+```
 
+```python
 font_path = "path/to/font.ttf"  
 font_props = font_manager.FontProperties(fname=font_path)
 
