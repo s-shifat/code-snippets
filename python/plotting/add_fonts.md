@@ -8,7 +8,7 @@ tags: []
 # add_fonts
 
 ```python
-# Just for reference
+# A pseudo scenario
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -16,6 +16,7 @@ x = np.arange(0, 100, 0.2)
 y = x**2
 
 fig, ax = plt.subplots(figsize=(6, 4))
+ax.plot(x, y)
 
 ```
 
@@ -29,7 +30,6 @@ plt.rcParams['font.family'] = 'Times New Roman'
 ## Option2: Fonts installed and Setup Plot Element specific
 Tip: Most of the text contatining elements have `font` or similar keyword argument
 ```python
-ax.plot(x, y)
 ax.set_title('x vs y', font='Times New Roman')  # Title
 ax.set_xlabel('x m/s', font='Arial')  # Label
 ax.set_xticks(
