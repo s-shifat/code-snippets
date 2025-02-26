@@ -21,9 +21,12 @@ plt.rcParams['text.usetex'] = True
 ## Format Dates in axis
 Let's say I only want to show hours and minutes in the time axis (x-axis)
 
+
 ```python
 from matplotlib.dates import DateFormatter
+```
 
+```python
 time_format = DateFormatter("%H:%M")
 
 ax.xaxis.set_major_formatter(time_format)
