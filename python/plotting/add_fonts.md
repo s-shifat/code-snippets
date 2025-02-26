@@ -20,6 +20,7 @@ fig, ax = plt.subplots(figsize=(6, 4))
 ```
 
 ## Option1: Fonts installed and Setup in global scope
+If a particular font is already installed in the development machine/system and for the plotting you want to use it in each plot (ie. global scope)
 
 ```python
 plt.rcParams['font.family'] = 'Times New Roman'
