@@ -36,7 +36,7 @@ ax.set_xticks(
     np.arange(0, 100, 20),
     lables=np.arange(0, 100, 20),
     font='Source Code Pro'
-)
+)  # tick labels
 ```
 
 
