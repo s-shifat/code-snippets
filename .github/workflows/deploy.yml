@@ -3,10 +3,10 @@ name: Deploy MkDocs to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change this if your default branch is different
+      - main
 
 permissions:
-  contents: read
+  contents: write  # Allows pushing to gh-pages
   pages: write
   id-token: write
 
@@ -26,6 +26,12 @@ jobs:
       - name: Install MkDocs and dependencies
         run: pip install mkdocs-material
 
-      - name: Deploy MkDocs
-        run: mkdocs gh-deploy --force
+      - name: Configure Git for Actions
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+      - name: Deploy MkDocs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: mkdocs gh-deploy --force --remote-branch gh-pages
