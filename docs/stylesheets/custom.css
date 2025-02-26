@@ -1,0 +1,39 @@
+/* Catppuccin Mocha Theme for MkDocs */
+
+/* LIGHT MODE CODE BLOCKS */
+[data-md-color-scheme="default"] pre, 
+[data-md-color-scheme="default"] code {
+    background-color: #f5f5f5 !important;  /* Soft light gray */
+    color: #4a4a4a !important;  /* Darker text for contrast */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* DARK MODE CODE BLOCKS (Catppuccin Mocha) */
+[data-md-color-scheme="slate"] pre, 
+[data-md-color-scheme="slate"] code {
+    background-color: #1e1e2e !important;  /* Catppuccin Mocha dark */
+    color: #cdd6f4 !important;  /* Light text */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Line numbers styling */
+.highlighttable {
+    border-radius: 5px;
+    overflow: auto;
+}
+.highlighttable pre {
+    padding: 10px;
+}
+
+/* Improve inline code styling */
+code {
+    font-family: "Fira Code", "Courier New", monospace;
+    font-size: 14px;
+}
+
+/* Set font colors for different elements */
+.md-typeset code {
+    color: #a6adc8 !important; /* Light gray for inline code */
+}

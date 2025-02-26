@@ -1,0 +1,44 @@
+site_name: Code Snippets
+site_url: https://your-username.github.io/code-snippets/  # Replace with your GitHub Pages URL
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: purple
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+
+
+markdown_extensions:
+  - pymdownx.superfences  # Improves code blocks
+  - pymdownx.highlight:  # Better syntax highlighting
+      linenums: true  # Show line numbers
+      anchor_linenums: true
+      use_pygments: true
+  - pymdownx.inlinehilite  # Inline code highlighting
+  - pymdownx.snippets  # Allows reusing snippets
+  - pymdownx.extra  # Extra formatting features
+  - pymdownx.tilde  # Adds strikethrough support
+
+extra_css:
+  - stylesheets/custom.css
+
