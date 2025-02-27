@@ -26,6 +26,10 @@ theme:
     - search.highlight
     - content.code.copy
 
+  extra:
+    search:
+      indexing: full  # Ensure full reindexing
+    manifest: false   # Disables service worker
 
 
 markdown_extensions:
