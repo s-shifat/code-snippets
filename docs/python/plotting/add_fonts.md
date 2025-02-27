@@ -70,7 +70,7 @@ ax.legend(prop=font_props)
 ```
 
 
-# Setup Font Size
+## Setup Font Size
 setup font size of different components in global scope.
 
 ```python
