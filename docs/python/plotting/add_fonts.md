@@ -68,3 +68,27 @@ ax.set_xlabel("X-axis Label", fontproperties=font_props)
 ax.set_ylabel("Y-axis Label", fontproperties=font_props)
 ax.legend(prop=font_props)
 ```
+
+
+# Setup Font Size
+setup font size of different components in global scope.
+
+```python
+import matplotlib as mpl
+```
+
+```python
+# Set LaTeX-style font
+mpl.rcParams.update({
+    "text.usetex": True,
+    "font.family": "serif",
+    "font.serif": ["Computer Modern"],
+    "axes.labelsize": 12,
+    "axes.titlesize": 14,
+    "legend.fontsize": 12,
+    "xtick.labelsize": 12,
+    "ytick.labelsize": 12,
+})
+
+
+```
