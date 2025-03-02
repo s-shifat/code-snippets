@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://your-username.github.io/code-snippets/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <loc>https://s-shifat.github.io/code-snippets/</loc>
+         <lastmod>2025-03-02</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/code-snippets/python/plotting/add_fonts/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <loc>https://s-shifat.github.io/code-snippets/git/misc/</loc>
+         <lastmod>2025-03-02</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/code-snippets/python/plotting/misc/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <loc>https://s-shifat.github.io/code-snippets/latex/add-pdf-pages/</loc>
+         <lastmod>2025-03-02</lastmod>
+    </url>
+    <url>
+         <loc>https://s-shifat.github.io/code-snippets/python/plotting/add_fonts/</loc>
+         <lastmod>2025-03-02</lastmod>
+    </url>
+    <url>
+         <loc>https://s-shifat.github.io/code-snippets/python/plotting/misc/</loc>
+         <lastmod>2025-03-02</lastmod>
     </url>
 </urlset>
