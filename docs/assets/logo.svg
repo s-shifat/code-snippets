@@ -1,0 +1,16 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="400" cy="400" r="360" fill="#1E1E2E" stroke="#009688" stroke-width="20"/>
+  
+  <!-- Left Curly Brace -->
+  <text x="280" y="420" font-family="monospace" font-size="240" fill="#FFFFFF" font-weight="bold" text-anchor="middle" alignment-baseline="middle">{</text>
+  
+  <!-- Right Curly Brace -->
+  <text x="520" y="420" font-family="monospace" font-size="240" fill="#FFFFFF" font-weight="bold" text-anchor="middle" alignment-baseline="middle">}</text>
+  
+  <!-- Centered Text Below -->
+  <text x="400" y="600" font-family="monospace" font-size="72" fill="#FFFFFF" text-anchor="middle" alignment-baseline="middle">Snippets</text>
+  
+  <!-- Signature Positioned Lower -->
+  <text x="400" y="700" font-family="monospace" font-size="48" fill="#009688" text-anchor="middle">s-shifat</text>
+</svg>

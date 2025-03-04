@@ -24,12 +24,15 @@ jobs:
           python-version: '3.x'
 
       - name: Install MkDocs and dependencies
-        run: pip install mkdocs-material mkdocs-jupyter
+        run: pip install mkdocs-material mkdocs-jupyter mkdocs-exclude
 
       - name: Configure Git for Actions
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Set Jupyter Environment Variable
+        run: echo "JUPYTER_PLATFORM_DIRS=1" >> $GITHUB_ENV  # 🔥 Fix the warning
 
       - name: Deploy MkDocs
         env:

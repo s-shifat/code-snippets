@@ -1,8 +1,13 @@
-site_name: S-shifat Code Snippets Browser
+# site_name: S-shifat Code Snippets Browser
+site_name: sudo make s-shifat/snippets 🛠️
 site_url: https://s-shifat.github.io/code-snippets/
+
 
 theme:
   name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.png
+  # custom_dir: docs/overrides
   palette:
     - scheme: default
       primary: teal
@@ -22,15 +27,19 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.expand
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.code.copy
 
-  extra:
-    search:
-      indexing: full  # Ensure full reindexing
-    manifest: false   # Disables service worker
-
+extra:
+  generator: false
+  search:
+    indexing: full  # Ensure full reindexing
+  manifest: false   # Disables service worker
+  social:
+      - icon: fontawesome/brands/github 
+        link: https://github.com/s-shifat
 
 markdown_extensions:
   # - pymdownx.superfences  # Improves code blocks
@@ -44,10 +53,18 @@ markdown_extensions:
   - pymdownx.extra  # Extra formatting features
   - pymdownx.tilde  # Adds strikethrough support
 
-# extra_css:
-#   - stylesheets/custom.css
+extra_css:
+  - stylesheets/custom.css
+
+extra_javascript:
+  - javascripts/search-shortcut.js
 
 plugins:
   - search  # Keeps search working
   - mkdocs-jupyter  # Enables Jupyter notebook rendering
+  - exclude:
+      glob:
+        - "*.ju.py"  # Ignore Jupynium files
 
+
+copyright: Copyright &copy; 2025 Shams-E-Shifat
