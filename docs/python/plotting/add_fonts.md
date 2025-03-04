@@ -72,6 +72,7 @@ ax.legend(prop=font_props)
 
 ## Setup Font Size
 setup font size of different components in global scope.
+More at: [Customizing Matplotlib with Style sheets and rcParams](https://matplotlib.org/stable/users/explain/customizing.html)
 
 ```python
 import matplotlib as mpl
