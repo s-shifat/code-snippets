@@ -48,6 +48,8 @@ markdown_extensions:
       anchor_linenums: true
       use_pygments: true
       pygments_style: dracula  # Change this for higher contrast
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.inlinehilite  # Inline code highlighting
   - pymdownx.snippets  # Allows reusing snippets
   - pymdownx.extra  # Extra formatting features
@@ -58,6 +60,9 @@ extra_css:
 
 extra_javascript:
   - javascripts/search-shortcut.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/contrib/auto-render.min.js
+
 
 plugins:
   - search  # Keeps search working
