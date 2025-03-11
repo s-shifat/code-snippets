@@ -32,7 +32,6 @@ custom_xticks_labels = np.int16(np.rint(np.degrees(custom_xticks)))
 
 
 To see what other parameters can be set. visit [`matplotlib.axes.Axes.set`](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.set.html)
-
 """
 
 # %%
@@ -58,7 +57,7 @@ fig.set_layout_engine('constrained')
 
 plt.show()
 
-# %% [md]
+# %% [markdown]
 """
 or use a dictionary  with the valid key word arguments $\rightarrow$
 ```python
@@ -73,13 +72,14 @@ ax.set(**ax_properties)
 ```
 """
 
-# %% [md]
+# %% [markdown]
 """
 ## Add rotation to tick labels
 
 Stolen from [StackOverflow](https://stackoverflow.com/q/10998621)
 """
-# %% [md]
+
+# %% [markdown]
 """
 ### Rotating xtick labels wihtout custom ticks and labels
 """
@@ -93,10 +93,11 @@ plt.xticks(rotation=45)
 # or 
 ax.tick_params(axis='x', labelrotation=45)
 
-# %% [md]
+# %% [markdown]
 """
 ### Rotating xtick labels with custom ticks and labels
 """
+
 # %%
 plt.plot(x, y)
 ax  = plt.gca()
