@@ -1,0 +1,7 @@
+---
+id: aesthetics
+aliases: []
+tags: []
+---
+
+

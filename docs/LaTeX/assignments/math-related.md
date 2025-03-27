@@ -84,10 +84,8 @@ petrol of specific gravity 0.7.
                     \Rightarrow&~ \rho_l = 0.7 \times \qty{1000}{kg/m^3} \\
                     \therefore&~ \rho_l = \qty{700}{kg/m^3}
                 \end{aligned}
-
                 % Middle: Vertical Line
                 \quad \hspace{2cm} \left\vert\quad
-
                 % Right Part
                 \begin{aligned}
                     &~\text{Here, }\\
