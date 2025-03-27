@@ -1,0 +1,48 @@
+/* Reduce footer height and padding */
+.md-footer {
+    padding: 5px 0 !important;  /* Reduce vertical padding */
+    font-size: 12px !important; /* Make text smaller */
+}
+
+/* Reduce previous/next navigation size */
+.md-footer-nav {
+    padding: 5px 10px !important;  /* Reduce padding */
+    font-size: 14px !important;  /* Make text smaller */
+}
+
+/* Reduce icon size in previous/next buttons */
+.md-footer-nav__link {
+    padding: 5px 8px !important; /* Less padding */
+}
+
+.md-footer-nav__direction {
+    font-size: 12px !important; /* Smaller "Next" text */
+}
+
+.md-footer-nav__title {
+    font-size: 14px !important; /* Reduce page title size */
+}
+
+/* Hide "Made with Material for MkDocs" */
+.md-footer-meta.md-typeset small {
+    display: none !important;
+}
+
+/* Footer Styling */
+.md-footer {
+    background-color: #263238 !important;  /* Dark Gray-Blue */
+    color: #B0BEC5 !important;  /* Light Gray Text */
+}
+
+.md-footer a {
+    color: #80CBC4 !important;  /* Soft Green Links */
+}
+
+.md-footer a:hover {
+    color: #4DB6AC !important;  /* Brighter Green on Hover */
+}
+
+/* Center Footer Text */
+.md-footer-meta__inner {
+    text-align: center;
+}
